@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		77998C0029BD760C000018A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77998BFE29BD760C000018A3 /* Main.storyboard */; };
 		77998C0229BD760D000018A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77998C0129BD760D000018A3 /* Assets.xcassets */; };
 		77998C0529BD760D000018A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77998C0329BD760D000018A3 /* LaunchScreen.storyboard */; };
+		77C114BF29BD7A7D00996A97 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C114BE29BD7A7D00996A97 /* MyCustomCell.swift */; };
 		C096E8100A18582279DE051A /* Pods_ProjectCocoapodsZero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1354C8DB67A10FE211CDDDD /* Pods_ProjectCocoapodsZero.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		77998C0129BD760D000018A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77998C0429BD760D000018A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77998C0629BD760D000018A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C114BE29BD7A7D00996A97 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		95E3A7FEA7A1A1071F3FCB8D /* Pods-ProjectCocoapodsZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectCocoapodsZero.debug.xcconfig"; path = "Target Support Files/Pods-ProjectCocoapodsZero/Pods-ProjectCocoapodsZero.debug.xcconfig"; sourceTree = "<group>"; };
 		B1354C8DB67A10FE211CDDDD /* Pods_ProjectCocoapodsZero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectCocoapodsZero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				95E3A7FEA7A1A1071F3FCB8D /* Pods-ProjectCocoapodsZero.debug.xcconfig */,
 				3F63C01E4849F86B49489A58 /* Pods-ProjectCocoapodsZero.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +77,7 @@
 				77998BF829BD760C000018A3 /* AppDelegate.swift */,
 				77998BFA29BD760C000018A3 /* SceneDelegate.swift */,
 				77998BFC29BD760C000018A3 /* ViewController.swift */,
+				77C114BE29BD7A7D00996A97 /* MyCustomCell.swift */,
 				77998BFE29BD760C000018A3 /* Main.storyboard */,
 				77998C0129BD760D000018A3 /* Assets.xcassets */,
 				77998C0329BD760D000018A3 /* LaunchScreen.storyboard */,
@@ -208,6 +210,7 @@
 			files = (
 				77998BFD29BD760C000018A3 /* ViewController.swift in Sources */,
 				77998BF929BD760C000018A3 /* AppDelegate.swift in Sources */,
+				77C114BF29BD7A7D00996A97 /* MyCustomCell.swift in Sources */,
 				77998BFB29BD760C000018A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
